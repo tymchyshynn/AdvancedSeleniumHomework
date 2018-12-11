@@ -18,11 +18,15 @@ namespace AdvansedSeleniumHomework1
         [SetUp]
         public void SetUp()
         {
+
+            //Config browser window
             var chromeOptions = new ChromeOptions();
             chromeOptions.AddArguments
                 (
                     "--headless",
-                    "--start-maximized"         
+                    "--start-fullscreen",
+                    "--start-maximized",
+                    "--disable-infobars"
                 );
 
             //Creating the driver
@@ -113,8 +117,8 @@ namespace AdvansedSeleniumHomework1
 
             //Drag & Drop the small box into a big one
             TestContext.WriteLine("Drag & Drop the small box into a big one");
-            //new Actions(driver).DragAndDrop(draggableElement, dropTargetElement).Perform();
-            new Actions(driver).ClickAndHold(draggableElement).MoveToElement(dropTargetElement).MoveByOffset(0, 23).Release().Perform();
+            new Actions(driver).DragAndDrop(draggableElement, dropTargetElement).Perform();
+            //new Actions(driver).ClickAndHold(draggableElement).MoveToElement(dropTargetElement).MoveByOffset(0, 23).Release().Perform();
 
             //Verify that big box now contains text "Dropped!"
             TestContext.WriteLine("Verify that big box now contains text 'Dropped!'");

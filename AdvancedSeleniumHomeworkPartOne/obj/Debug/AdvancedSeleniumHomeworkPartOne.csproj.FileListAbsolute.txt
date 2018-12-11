@@ -13,3 +13,4 @@ C:\Users\vasyl.tymchyshyn\source\repos\AdvancedSeleniumHomeworkPartOne\AdvancedS
 C:\Users\vasyl.tymchyshyn\source\repos\AdvancedSeleniumHomeworkPartOne\AdvancedSeleniumHomeworkPartOne\obj\Debug\AdvancedSeleniumHomeworkPartOne.csproj.CopyComplete
 C:\Users\vasyl.tymchyshyn\source\repos\AdvancedSeleniumHomeworkPartOne\AdvancedSeleniumHomeworkPartOne\obj\Debug\AdvancedSeleniumHomeworkPartOne.dll
 C:\Users\vasyl.tymchyshyn\source\repos\AdvancedSeleniumHomeworkPartOne\AdvancedSeleniumHomeworkPartOne\obj\Debug\AdvancedSeleniumHomeworkPartOne.pdb
+C:\Users\vasyl.tymchyshyn\source\repos\AdvancedSeleniumHomeworkPartOne\AdvancedSeleniumHomeworkPartOne\obj\Debug\AdvancedSeleniumHomeworkPartOne.csprojAssemblyReference.cache
