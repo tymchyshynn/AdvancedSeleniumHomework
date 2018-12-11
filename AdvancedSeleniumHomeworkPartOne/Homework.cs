@@ -3,10 +3,9 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using System;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Threading;
+
 
 namespace AdvansedSeleniumHomework1
 {
